@@ -15,7 +15,7 @@ The backend supports three providers. Pick **one** in `backend/.env` with `AI_PR
 ```env
 AI_PROVIDER=gemini
 GEMINI_API_KEY=paste-your-key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.8-flash
 ```
 If the model name is rejected, check the current model list at https://ai.google.dev/gemini-api/docs/models and update `GEMINI_MODEL`.
 
