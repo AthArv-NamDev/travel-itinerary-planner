@@ -49,3 +49,7 @@ async def health():
         "ai_provider": settings.effective_provider,
         "supabase_configured": settings.supabase_configured,
     }
+
+@app.get("/")
+async def root():
+    return {"name": "Wayfind API", "docs": "/docs", "health": "/api/health"}
